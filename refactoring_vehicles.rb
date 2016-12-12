@@ -23,7 +23,7 @@ class Motorcycle < Vehicle
   end
 end
 
-class Truck
+class Truck < Vehicle
   attr_reader :payload
 
   def initialize(make, model, payload)
